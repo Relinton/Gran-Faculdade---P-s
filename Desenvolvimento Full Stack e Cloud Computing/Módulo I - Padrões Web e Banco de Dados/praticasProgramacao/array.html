@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+        <meta charset="UTF-8">
+        <script>
+            const carros = ['Gol', 'Fusca', 'Virtus', 'Ka', 'Chevrolet']
+
+            for(let carro of carros) {
+                console.table(carro);
+            }
+            
+            carros.unshift('Palio')  // Adiciona o item no início
+            carros.push('Fiesta')    // Adiciona o item no final
+            carros.shift()           // Retira o item do início
+            carros.pop()             // Retira o item do final
+            console.table(carros)
+            carros.sort()            // Ordenar por ordem alfabética
+            console.table(carros)
+
+
+
+            const motos = ['Honda', 'Yamaha', 'Suzuki']
+            console.table(motos)
+
+            /*
+            splice serve para:
+
+            Excluir itens a partir de uma posição
+            ex: carros.splice(2, 3) -> exclui 3 itens a partir da posição 2
+
+            Inserir itens a partir de uma posição
+            ex: carros.splice(3, 0, 'Uno') -> adiciona o item 'Uno' na posição 3
+
+            Alterar itens a partir de uma posição
+            ex: carros.splice(1, 1, 'Uno') -> adiciona o item 'Uno' na posição 1 após apagar o item que lá estava
+            */
+            
+            //splice (1, 2) vai no item 1 e exclui dois
+            motos.splice(1, 2)
+            console.table(motos)
+
+            //splice (1, 0, 'kavazaki') vai no índice 1, não exclui nenhum e adiciona kavazaki
+            motos.splice(1, 0, 'Kavazaki')
+            console.table(motos)
+
+            //splice (1, 1, 'Kavazaki z1000') vai no índice 1, exclui ele e adiciona 'Kavazaki z1000, foi feito update'
+            motos.splice(1, 1, 'Kavazaki z1000')
+            console.table(motos)
+
+
+
+
+            // for (let i=0; i<4; i++)
+            // {
+            //     console.log(carros[i]);
+            // }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

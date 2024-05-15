@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recursividade</title>
+        <meta charset="UTF-8">
+        <script>
+
+            // fatorial de 5 = 5!
+            // 5 * 4 * 3 * 2 * 1
+
+            // fatorial de 10
+            // 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+
+            function fatorial (x) {
+                if (x < 1) {
+                    return 1
+                } else {
+                    return x * fatorial(x-1)
+                }
+            }
+
+            console.log(fatorial(5))
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
