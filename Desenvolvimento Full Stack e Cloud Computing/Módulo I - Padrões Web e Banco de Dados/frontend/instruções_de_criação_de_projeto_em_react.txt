@@ -1,0 +1,45 @@
+Cria uma pasta/diretório frontend que será a 
+raiz do projeto, abre o terminal cmd
+naquela pasta, e ai vem os comandos.
+
+npx create-next-app
+
+nome do projeto: desafio-frontend
+as perguntas: sim ou não (n)...
+
+abre a pasta criada do projeto desafio-frontend no visual studio code.
+
+no terminal do vs code para executar o projeto digite:
+npm run dev
+
+Para usar o bootstrap no react
+no terminal do vs code ou num novo terminal caso o projeto estiver sendo executado, digitar o comando:
+npm install react-bootstrap bootstrap
+
+e para importar algum componente copiado do site do react bootstrap
+exemplo o navbar é o comando
+ctrl + barra
+
+Instalar o plugin para ajudar a criar estruturas minimas de functions...
+ES7+ React/Redux/React-Native snippets
+
+Para criar um components
+sempre com a Primeira letra do arquivo Maisculo exemplo:
+Box.js
+
+e para criar a estrutura digite no arquivo criado: race ou rafce
+ele cria uma arrow function minima de um componente.
+
+
+
+
+
+
+
+
+
+sites das bibliotecas:
+react
+react bootstrap
+
+
